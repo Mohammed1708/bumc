@@ -1,0 +1,31 @@
+.swiper-slide-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.swiper-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.swiper-container {
+    scrollbar-width: none;
+    position: relative;
+    z-index: 10; /* Below navbar */
+}
+
+/* Ensure smooth scrolling and overflow hidden */
+.swiper-container {
+    overflow: hidden;
+}
+
+/* .swiper-wrapper {
+    overflow: hidden;
+} */
+
+.swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}

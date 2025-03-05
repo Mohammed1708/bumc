@@ -1,0 +1,17 @@
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    /* Ensures the box effect remains */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 5px;
+    /* Optional rounded edges */
+}
+
+.nav-link:hover {
+    background-color: #e0344c;
+    /* Light gray box effect */
+    color: #000;
+}
