@@ -23,7 +23,7 @@
             </div>
             <!-- Hamburger Menu Button -->
             <div class="md:hidden">
-                <button id="menu-toggle" type="button" class="text-black focus:outline-none p-2 border border-gray-400 rounded-md">
+                <button id="menu-toggle" type="button-navbar" class="text-black focus:outline-none p-2 border border-gray-400 rounded-md">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
                 <!-- Mobile Menu -->

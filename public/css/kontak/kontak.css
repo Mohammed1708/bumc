@@ -55,7 +55,7 @@ button {
     margin-bottom: 16px;
     box-sizing: border-box;
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(105, 152, 111);
     color: rgb(183, 213, 179);
     font-size: 17px;
     font-weight: 700;
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(52, 98, 58);
 }
 
 .map-div iframe {
@@ -73,7 +73,7 @@ button:hover {
 
 .gfg {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: green;
 }
 
 .map-div {

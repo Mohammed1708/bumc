@@ -29,3 +29,44 @@
     height: auto;
     object-fit: cover;
 }
+
+.swiper-button-prev {
+    left: -40px;
+}
+
+.swiper-button-next {
+    right: -40px;
+}
+
+/* Mencegah gambar yang tidak aktif terlihat */
+.swiper-slide {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hanya gambar yang aktif dan di sampingnya yang terlihat */
+.swiper-slide-active,
+.swiper-slide-next,
+.swiper-slide-prev {
+    opacity: 1;
+}
+
+/* Mencegah slide keluar dari batas */
+.swiper-fasilitas {
+    overflow: hidden;
+}
+
+/* Warna pagination bullet */
+.swiper-pagination-bullet {
+    background-color: black !important;
+    /* Ubah warna bullet jadi hitam */
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Aktifkan warna bullet yang sedang dipilih */
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}

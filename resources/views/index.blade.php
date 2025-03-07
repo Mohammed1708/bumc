@@ -47,13 +47,13 @@
                             src="{{ asset('assets/img/slider-2.jpg') }}" width="1920" />
                     </div>
                 </div>
-                </div>
-                <!-- Swiper Pagination -->
-                <!-- <div class="swiper-pagination"></div> -->
-                <!-- Swiper Navigation -->
-                <!-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div> -->
             </div>
+            <!-- Swiper Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+            <!-- Swiper Navigation -->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+        </div>
     </section>
 
     <!-- Swiper JS -->
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <img src="{{ asset('assets/icons/health.png') }}" alt="Icon of a general practitioner" class="mr-4" width="100" height="100">
+                    <img src="{{ asset('assets/icons/health.png') }}" alt="Icon of a general practitioner" class="mr-4" width="50" height="50">
                     <div>
                         <h2 class="text-lg font-bold">DOKTER UMUM</h2>
                         <p class="text-gray-600">Konsultasi medis untuk berbagai keluhan kesehatan, pemeriksaan awal, pengobatan umum, serta rujukan jika diperlukan.</p>
@@ -219,7 +219,7 @@
                 </div>
 
                 <!-- Navigation Buttons -->
-                <!-- <div class="swiper-button-next custom-nav"></div> -->
+                <div class="swiper-button-next custom-nav"></div>
             </div>
         </div>
     </section>
@@ -230,15 +230,7 @@
 
     <style>
         /* Geser tombol navigasi agar tidak menutupi gambar */
-        .custom-nav {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: black;
-            /* Warna tombol */
-            font-size: 24px;
-            z-index: 10;
-        }
+
 
         .swiper-button-prev {
             left: -40px;
@@ -474,7 +466,7 @@
                     <h2 class="text-2xl font-bold mb-4">Lokasi Kami</h2>
                     <div class="relative w-full h-64 md:h-96">
                         <iframe class="w-full h-full rounded-lg"
-                            src="https://www.google.com/maps/embed?..."
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0462412341994!2d106.86087277573179!3d-6.257639261267588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f25537ac4cd3%3A0x30c0425b54c795fd!2sBUMC%20Kalibata%20-%20Binawan%20University%20Medical%20Center!5e0!3m2!1sen!2sid!4v1741317788903!5m2!1sen!2sid"
                             style="border:0;"
                             allowfullscreen=""
                             loading="lazy">
